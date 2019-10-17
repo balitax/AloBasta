@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol ProfileView: PresentableView {
+protocol ProfileView: PresentableView, AlertableView {
     // TODO: Declare view methods
     var presenter: ProfilePresentation! { get set }
 }
@@ -19,12 +19,13 @@ protocol ProfilePresentation: class {
     var interactor: ProfileUseCase! { get set }
     var router: ProfileWireframe! { get set }
     
-    func viewDidLoad()
+    func didLogout()
 }
 
 protocol ProfileUseCase: class {
     // TODO: Declare use case methods
     var output: ProfileInteractorOutput! { get set }
+    func didLogout()
 }
 
 protocol ProfileInteractorOutput: class {
@@ -34,6 +35,7 @@ protocol ProfileInteractorOutput: class {
 protocol ProfileWireframe: class {
     // TODO: Declare wireframe methods
     var viewController: UIViewController? { get set }
+    func presentLogin()
     static func assembleModule() -> UIViewController
 }
 

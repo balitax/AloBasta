@@ -26,7 +26,10 @@ class ProfilePresenter {
 
 extension ProfilePresenter: ProfilePresentation {
     
-    func viewDidLoad() {  }
+    func didLogout() {
+        interactor.didLogout()
+        router.presentLogin()
+    }
     
 }
 

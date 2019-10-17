@@ -17,7 +17,7 @@ class HomeViewController: UITabBarController {
     
     func addTabbarItem() {
         
-        self.tabBar.tintColor = UIColor.darkGray
+        self.tabBar.tintColor = UIColor.defaultTheme
         self.tabBar.backgroundColor = .white
         
         let homeview = DashboardRouter.assembleModule()

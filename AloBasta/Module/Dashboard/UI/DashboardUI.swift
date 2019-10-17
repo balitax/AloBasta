@@ -14,6 +14,9 @@ class DashboardUI: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationItem.title = "Dashboard"
+        self.navigationController?.navigationBar.barTintColor = .defaultTheme
+        self.navigationController?.navigationBar.isTranslucent = false
         presenter.viewDidLoad()
     }
     

@@ -14,8 +14,15 @@ class ProfileUI: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        presenter.viewDidLoad()
+        self.navigationItem.title = "Profile"
+        self.navigationController?.navigationBar.barTintColor = .defaultTheme
+        self.navigationController?.navigationBar.isTranslucent = false
     }
+    
+    @IBAction func didLogoutTapped(_ sender: UIButton) {
+        presenter.didLogout()
+    }
+    
     
 }
 

@@ -14,5 +14,10 @@ class ProfileInteractor {
 }
 
 extension ProfileInteractor: ProfileUseCase {
+ 
+    func didLogout() {
+        UserDefaultsManager.shared().email = ""
+        UserDefaultsManager.shared().password = ""
+    }
     
 }

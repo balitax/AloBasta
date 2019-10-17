@@ -54,6 +54,7 @@
 		B6DDFA342358B88B00342981 /* ProfilePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DDFA2C2358B88B00342981 /* ProfilePresenter.swift */; };
 		B6DDFA352358B88B00342981 /* ProfileInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DDFA2E2358B88B00342981 /* ProfileInteractor.swift */; };
 		B6DDFA362358B88B00342981 /* ProfileRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DDFA302358B88B00342981 /* ProfileRouter.swift */; };
+		B6DDFA382358BBEF00342981 /* GSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DDFA372358BBEF00342981 /* GSView.swift */; };
 		DEBD65B593B121CDFD6C2AE6 /* Pods_AloBastaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4310BFF7442F20D9F8018AA6 /* Pods_AloBastaTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -132,6 +133,7 @@
 		B6DDFA2C2358B88B00342981 /* ProfilePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfilePresenter.swift; sourceTree = "<group>"; };
 		B6DDFA2E2358B88B00342981 /* ProfileInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileInteractor.swift; sourceTree = "<group>"; };
 		B6DDFA302358B88B00342981 /* ProfileRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileRouter.swift; sourceTree = "<group>"; };
+		B6DDFA372358BBEF00342981 /* GSView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSView.swift; sourceTree = "<group>"; };
 		BEB1B4C39A3B84150F2B733F /* Pods-AloBastaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AloBastaTests.debug.xcconfig"; path = "Target Support Files/Pods-AloBastaTests/Pods-AloBastaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED2695F1F16B1F80565C1752 /* Pods-AloBasta-AloBastaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AloBasta-AloBastaUITests.debug.xcconfig"; path = "Target Support Files/Pods-AloBasta-AloBastaUITests/Pods-AloBasta-AloBastaUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FDA4DA841B0156256D0F1407 /* Pods-AloBasta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AloBasta.debug.xcconfig"; path = "Target Support Files/Pods-AloBasta/Pods-AloBasta.debug.xcconfig"; sourceTree = "<group>"; };
@@ -263,6 +265,7 @@
 		B6DDF9CE2358AE3700342981 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				B6DDFA372358BBEF00342981 /* GSView.swift */,
 				B6DDF9D02358AE3700342981 /* CircularImageView.swift */,
 				B6DDF9D12358AE3700342981 /* UIColor+Extensions.swift */,
 				B6DDF9D42358AE3700342981 /* LoadingPlaceholderView */,
@@ -763,6 +766,7 @@
 				B6DDFA1E2358B86400342981 /* DashboardUI.swift in Sources */,
 				B6DDFA062358AED300342981 /* AuthInteractor.swift in Sources */,
 				B6DDF9EE2358AE3F00342981 /* PresentableView.swift in Sources */,
+				B6DDFA382358BBEF00342981 /* GSView.swift in Sources */,
 				B6DDF9CA2358AE2800342981 /* APIClient.swift in Sources */,
 				B6DDFA022358AED300342981 /* AuthUI.swift in Sources */,
 				B6DDFA332358B88B00342981 /* ProfileContract.swift in Sources */,

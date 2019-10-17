@@ -40,4 +40,9 @@ extension ProfileRouter: ProfileWireframe {
         return navigation
     }
     
+    func presentLogin() {
+        guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else { return }
+        appDelegate.setRootViewController(AuthRouter.assembleModule())
+    }
+    
 }
