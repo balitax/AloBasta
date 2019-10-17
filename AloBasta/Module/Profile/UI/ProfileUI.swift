@@ -15,7 +15,7 @@ class ProfileUI: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationItem.title = "Profile"
-        self.navigationController?.navigationBar.barTintColor = .defaultTheme
+        self.navigationController?.navigationBar.barTintColor = .white
         self.navigationController?.navigationBar.isTranslucent = false
     }
     

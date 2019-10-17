@@ -13,13 +13,14 @@ protocol DashboardView: PresentableView {
     var presenter: DashboardPresentation! { get set }
 }
 
-protocol DashboardPresentation: class {
+protocol DashboardPresentation: DataSource {
     // TODO: Declare presentation methods
     var view: DashboardView! { get set }
     var interactor: DashboardUseCase! { get set }
     var router: DashboardWireframe! { get set }
     
     func viewDidLoad()
+    func presentDetail()
 }
 
 protocol DashboardUseCase: class {
@@ -34,6 +35,7 @@ protocol DashboardInteractorOutput: class {
 protocol DashboardWireframe: class {
     // TODO: Declare wireframe methods
     var viewController: UIViewController? { get set }
+    func presentDetail(from view: PresentableView)
     static func assembleModule() -> UIViewController
 }
 

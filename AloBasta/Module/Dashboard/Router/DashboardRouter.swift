@@ -21,9 +21,10 @@ extension DashboardRouter: DashboardWireframe {
     static func assembleModule() -> UIViewController {
         
         let view = DashboardUI()
+        let viewModel = DashboardViewModel()
         let router = DashboardRouter()
         let interactor = DashboardInteractor()
-        let presenter = DashboardPresenter(view: view, interactor: interactor, router: router)
+        let presenter = DashboardPresenter(view: view, viewModel: viewModel, interactor: interactor, router: router)
         
         let navigation = UINavigationController(rootViewController: view)
         
@@ -38,6 +39,14 @@ extension DashboardRouter: DashboardWireframe {
         interactor.output = presenter
         
         return navigation
+    }
+    
+    func presentDetail(from view: PresentableView) {
+        let detail = DetailImageRouter.assembleModule()
+        detail.hidesBottomBarWhenPushed = true
+        if let navigationController = view.presentedViewController() as? UINavigationController {
+            navigationController.pushViewController(detail, animated: true)
+        }
     }
     
 }

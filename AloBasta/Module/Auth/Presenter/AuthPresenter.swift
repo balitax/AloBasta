@@ -16,7 +16,7 @@ class AuthPresenter {
     var router: AuthWireframe!
     var interactor: AuthUseCase!
     
-    init(view: AuthView, interactor: AuthUseCase, router: AuthRouter) {
+    init(view: AuthView, interactor: AuthUseCase, router: AuthWireframe) {
         self.view = view
         self.interactor = interactor
         self.router = router

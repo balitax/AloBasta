@@ -1,5 +1,5 @@
 //  
-//  DashboardPresenter.swift
+//  DetailImagePresenter.swift
 //  AloBasta
 //
 //  Created by Agus Cahyono on 17/10/19.
@@ -9,15 +9,15 @@
 import UIKit
 
 
-/// DashboardPresenter
-class DashboardPresenter {
+/// DetailImagePresenter
+class DetailImagePresenter {
     // TODO: Declare view methods
-    var view: DashboardView!
-    var viewModel: DashboardViewModel!
-    var router: DashboardWireframe!
-    var interactor: DashboardUseCase!
+    var view: DetailImageView!
+    var viewModel: DetailImageViewModel!
+    var router: DetailImageWireframe!
+    var interactor: DetailImageUseCase!
     
-    init(view: DashboardView, viewModel: DashboardViewModel, interactor: DashboardUseCase, router: DashboardWireframe) {
+    init(view: DetailImageView,viewModel: DetailImageViewModel, interactor: DetailImageUseCase, router: DetailImageWireframe) {
         self.view = view
         self.viewModel = viewModel
         self.interactor = interactor
@@ -26,13 +26,7 @@ class DashboardPresenter {
     
 }
 
-extension DashboardPresenter: DashboardPresentation {
-    
-    func viewDidLoad() {  }
-    
-    func presentDetail() {
-        router.presentDetail(from: view)
-    }
+extension DetailImagePresenter: DetailImagePresentation {
     
     func numberOfSection() -> Int {
         return viewModel.items.count
@@ -46,8 +40,10 @@ extension DashboardPresenter: DashboardPresentation {
         return viewModel.getItem(at: indexPath)
     }
     
+    func viewDidLoad() {  }
+    
 }
 
-extension DashboardPresenter: DashboardInteractorOutput {
+extension DetailImagePresenter: DetailImageInteractorOutput {
     
 }
