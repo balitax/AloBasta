@@ -21,6 +21,7 @@ protocol AuthPresentation: class {
     var router: AuthWireframe! { get set }
     
     func didLogin(email: String, password: String)
+    func presentDashboard()
 }
 
 protocol AuthUseCase: class {
@@ -38,6 +39,7 @@ protocol AuthInteractorOutput: class {
 protocol AuthWireframe: class {
     // TODO: Declare wireframe methods
     var viewController: UIViewController? { get set }
+    func presentDashboard()
     static func assembleModule() -> UIViewController
 }
 

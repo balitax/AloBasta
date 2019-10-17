@@ -1,5 +1,5 @@
 //  
-//  DashboardRouter.swift
+//  ProfileRouter.swift
 //  AloBasta
 //
 //  Created by Agus Cahyono on 17/10/19.
@@ -10,20 +10,20 @@
 import Foundation
 import UIKit
 
-class DashboardRouter {
+class ProfileRouter {
 
     weak var viewController: UIViewController?
 
 }
 
-extension DashboardRouter: DashboardWireframe {
+extension ProfileRouter: ProfileWireframe {
     
     static func assembleModule() -> UIViewController {
         
-        let view = DashboardUI()
-        let router = DashboardRouter()
-        let interactor = DashboardInteractor()
-        let presenter = DashboardPresenter(view: view, interactor: interactor, router: router)
+        let view = ProfileUI()
+        let router = ProfileRouter()
+        let interactor = ProfileInteractor()
+        let presenter = ProfilePresenter(view: view, interactor: interactor, router: router)
         
         let navigation = UINavigationController(rootViewController: view)
         

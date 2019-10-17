@@ -1,5 +1,5 @@
 //  
-//  DashboardContract.swift
+//  ProfileContract.swift
 //  AloBasta
 //
 //  Created by Agus Cahyono on 17/10/19.
@@ -8,30 +8,30 @@
 
 import UIKit
 
-protocol DashboardView: PresentableView {
+protocol ProfileView: PresentableView {
     // TODO: Declare view methods
-    var presenter: DashboardPresentation! { get set }
+    var presenter: ProfilePresentation! { get set }
 }
 
-protocol DashboardPresentation: class {
+protocol ProfilePresentation: class {
     // TODO: Declare presentation methods
-    var view: DashboardView! { get set }
-    var interactor: DashboardUseCase! { get set }
-    var router: DashboardWireframe! { get set }
+    var view: ProfileView! { get set }
+    var interactor: ProfileUseCase! { get set }
+    var router: ProfileWireframe! { get set }
     
     func viewDidLoad()
 }
 
-protocol DashboardUseCase: class {
+protocol ProfileUseCase: class {
     // TODO: Declare use case methods
-    var output: DashboardInteractorOutput! { get set }
+    var output: ProfileInteractorOutput! { get set }
 }
 
-protocol DashboardInteractorOutput: class {
+protocol ProfileInteractorOutput: class {
     // TODO: Declare interactor output methods
 }
 
-protocol DashboardWireframe: class {
+protocol ProfileWireframe: class {
     // TODO: Declare wireframe methods
     var viewController: UIViewController? { get set }
     static func assembleModule() -> UIViewController

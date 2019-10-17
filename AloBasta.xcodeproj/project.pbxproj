@@ -48,6 +48,12 @@
 		B6DDFA202358B86400342981 /* DashboardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DDFA182358B86400342981 /* DashboardPresenter.swift */; };
 		B6DDFA212358B86400342981 /* DashboardInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DDFA1A2358B86400342981 /* DashboardInteractor.swift */; };
 		B6DDFA222358B86400342981 /* DashboardRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DDFA1C2358B86400342981 /* DashboardRouter.swift */; };
+		B6DDFA312358B88B00342981 /* ProfileUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DDFA272358B88B00342981 /* ProfileUI.swift */; };
+		B6DDFA322358B88B00342981 /* ProfileUI.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6DDFA282358B88B00342981 /* ProfileUI.xib */; };
+		B6DDFA332358B88B00342981 /* ProfileContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DDFA2A2358B88B00342981 /* ProfileContract.swift */; };
+		B6DDFA342358B88B00342981 /* ProfilePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DDFA2C2358B88B00342981 /* ProfilePresenter.swift */; };
+		B6DDFA352358B88B00342981 /* ProfileInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DDFA2E2358B88B00342981 /* ProfileInteractor.swift */; };
+		B6DDFA362358B88B00342981 /* ProfileRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DDFA302358B88B00342981 /* ProfileRouter.swift */; };
 		DEBD65B593B121CDFD6C2AE6 /* Pods_AloBastaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4310BFF7442F20D9F8018AA6 /* Pods_AloBastaTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -120,6 +126,12 @@
 		B6DDFA182358B86400342981 /* DashboardPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardPresenter.swift; sourceTree = "<group>"; };
 		B6DDFA1A2358B86400342981 /* DashboardInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardInteractor.swift; sourceTree = "<group>"; };
 		B6DDFA1C2358B86400342981 /* DashboardRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardRouter.swift; sourceTree = "<group>"; };
+		B6DDFA272358B88B00342981 /* ProfileUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileUI.swift; sourceTree = "<group>"; };
+		B6DDFA282358B88B00342981 /* ProfileUI.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileUI.xib; sourceTree = "<group>"; };
+		B6DDFA2A2358B88B00342981 /* ProfileContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileContract.swift; sourceTree = "<group>"; };
+		B6DDFA2C2358B88B00342981 /* ProfilePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfilePresenter.swift; sourceTree = "<group>"; };
+		B6DDFA2E2358B88B00342981 /* ProfileInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileInteractor.swift; sourceTree = "<group>"; };
+		B6DDFA302358B88B00342981 /* ProfileRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileRouter.swift; sourceTree = "<group>"; };
 		BEB1B4C39A3B84150F2B733F /* Pods-AloBastaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AloBastaTests.debug.xcconfig"; path = "Target Support Files/Pods-AloBastaTests/Pods-AloBastaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED2695F1F16B1F80565C1752 /* Pods-AloBasta-AloBastaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AloBasta-AloBastaUITests.debug.xcconfig"; path = "Target Support Files/Pods-AloBasta-AloBastaUITests/Pods-AloBasta-AloBastaUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FDA4DA841B0156256D0F1407 /* Pods-AloBasta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AloBasta.debug.xcconfig"; path = "Target Support Files/Pods-AloBasta/Pods-AloBasta.debug.xcconfig"; sourceTree = "<group>"; };
@@ -287,9 +299,10 @@
 		B6DDF9F32358AEA600342981 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				B6DDF9F62358AED300342981 /* Auth */,
+				B6DDFA252358B88B00342981 /* Profile */,
 				B6DDFA112358B86400342981 /* Dashboard */,
 				B6DDFA0C2358B7EB00342981 /* Home */,
-				B6DDF9F62358AED300342981 /* Auth */,
 			);
 			path = Module;
 			sourceTree = "<group>";
@@ -404,6 +417,59 @@
 			isa = PBXGroup;
 			children = (
 				B6DDFA1C2358B86400342981 /* DashboardRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		B6DDFA252358B88B00342981 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				B6DDFA262358B88B00342981 /* UI */,
+				B6DDFA292358B88B00342981 /* Contract */,
+				B6DDFA2B2358B88B00342981 /* Presenter */,
+				B6DDFA2D2358B88B00342981 /* Interactor */,
+				B6DDFA2F2358B88B00342981 /* Router */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		B6DDFA262358B88B00342981 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B6DDFA272358B88B00342981 /* ProfileUI.swift */,
+				B6DDFA282358B88B00342981 /* ProfileUI.xib */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		B6DDFA292358B88B00342981 /* Contract */ = {
+			isa = PBXGroup;
+			children = (
+				B6DDFA2A2358B88B00342981 /* ProfileContract.swift */,
+			);
+			path = Contract;
+			sourceTree = "<group>";
+		};
+		B6DDFA2B2358B88B00342981 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				B6DDFA2C2358B88B00342981 /* ProfilePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		B6DDFA2D2358B88B00342981 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				B6DDFA2E2358B88B00342981 /* ProfileInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		B6DDFA2F2358B88B00342981 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				B6DDFA302358B88B00342981 /* ProfileRouter.swift */,
 			);
 			path = Router;
 			sourceTree = "<group>";
@@ -532,6 +598,7 @@
 			files = (
 				B61D8CE42358AD0100421E2F /* LaunchScreen.storyboard in Resources */,
 				B6DDFA032358AED300342981 /* AuthUI.xib in Resources */,
+				B6DDFA322358B88B00342981 /* ProfileUI.xib in Resources */,
 				B6DDFA1D2358B86400342981 /* DashboardUI.xib in Resources */,
 				B61D8CE12358AD0100421E2F /* Assets.xcassets in Resources */,
 			);
@@ -661,6 +728,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6DDFA362358B88B00342981 /* ProfileRouter.swift in Sources */,
 				B6DDF9CD2358AE2800342981 /* AppDelegate.swift in Sources */,
 				B6DDF9F02358AE3F00342981 /* CellRepresentable.swift in Sources */,
 				B6DDF9DC2358AE3700342981 /* UIColor+Extensions.swift in Sources */,
@@ -672,12 +740,15 @@
 				B6DDFA072358AED300342981 /* AuthRouter.swift in Sources */,
 				B6DDF9CB2358AE2800342981 /* APIRouter.swift in Sources */,
 				B6DDFA222358B86400342981 /* DashboardRouter.swift in Sources */,
+				B6DDFA352358B88B00342981 /* ProfileInteractor.swift in Sources */,
 				B6DDF9CC2358AE2800342981 /* EnvironmentURL.swift in Sources */,
 				B6DDF9F12358AE3F00342981 /* DataSource.swift in Sources */,
 				B6DDF9ED2358AE3F00342981 /* AlertableView.swift in Sources */,
+				B6DDFA342358B88B00342981 /* ProfilePresenter.swift in Sources */,
 				B6DDFA0B2358B78B00342981 /* String+Extensions.swift in Sources */,
 				B6DDFA042358AED300342981 /* AuthContract.swift in Sources */,
 				B6DDFA202358B86400342981 /* DashboardPresenter.swift in Sources */,
+				B6DDFA312358B88B00342981 /* ProfileUI.swift in Sources */,
 				B6DDF9C92358AE2800342981 /* APIConfiguration.swift in Sources */,
 				B6DDF9DF2358AE3700342981 /* UIBezierPath+.swift in Sources */,
 				B6DDFA092358B4C600342981 /* UserDefaultsManager.swift in Sources */,
@@ -694,6 +765,7 @@
 				B6DDF9EE2358AE3F00342981 /* PresentableView.swift in Sources */,
 				B6DDF9CA2358AE2800342981 /* APIClient.swift in Sources */,
 				B6DDFA022358AED300342981 /* AuthUI.swift in Sources */,
+				B6DDFA332358B88B00342981 /* ProfileContract.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

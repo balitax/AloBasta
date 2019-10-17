@@ -11,9 +11,9 @@ import Foundation
 import UIKit
 
 class AuthRouter {
-
+    
     weak var viewController: UIViewController?
-
+    
 }
 
 extension AuthRouter: AuthWireframe {
@@ -36,6 +36,11 @@ extension AuthRouter: AuthWireframe {
         interactor.output = presenter
         
         return view
+    }
+    
+    func presentDashboard() {
+        guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else { return }
+        appDelegate.setRootViewController(HomeViewController())
     }
     
 }

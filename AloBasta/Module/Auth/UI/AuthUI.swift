@@ -51,7 +51,7 @@ extension AuthUI: AuthView {
     func configureView(_ state: ViewStateKind) {
         switch state {
         case .success:
-            print("LOGIN SUKSES ", UserDefaultsManager.shared().email)
+            presenter.presentDashboard()
         case .error(let error):
             let okAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
             self.showAlert(viewController: self, prefferedStyle: .alert, title: "Oops", message: error, alertActions: [okAction])

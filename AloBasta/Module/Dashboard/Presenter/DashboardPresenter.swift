@@ -12,9 +12,15 @@ import UIKit
 /// DashboardPresenter
 class DashboardPresenter {
     // TODO: Declare view methods
-    weak var view: DashboardView?
+    var view: DashboardView!
     var router: DashboardWireframe!
     var interactor: DashboardUseCase!
+    
+    init(view: DashboardView, interactor: DashboardUseCase, router: DashboardWireframe) {
+        self.view = view
+        self.interactor = interactor
+        self.router = router
+    }
     
 }
 

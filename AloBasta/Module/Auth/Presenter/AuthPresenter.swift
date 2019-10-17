@@ -26,6 +26,10 @@ class AuthPresenter {
 
 extension AuthPresenter: AuthPresentation {
     
+    func presentDashboard() {
+        router.presentDashboard()
+    }
+    
     func didLogin(email: String, password: String) {
         interactor.didLogin(email: email, password: password)
     }

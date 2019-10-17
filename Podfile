@@ -8,7 +8,6 @@ target 'AloBasta' do
 
   pod 'RxSwift'
   pod 'Alamofire'
-  pod 'IQKeyboardManagerSwift'
 
   target 'AloBastaTests' do
     inherit! :search_paths
