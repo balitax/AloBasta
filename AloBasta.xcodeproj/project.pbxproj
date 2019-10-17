@@ -1,0 +1,744 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F3B1102E891964E99B3AC89 /* Pods_AloBasta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5100580CED9FE0E96FB64D12 /* Pods_AloBasta.framework */; };
+		533EBB576D1BF788CA53EADE /* Pods_AloBasta_AloBastaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3C6E930F04403794643008 /* Pods_AloBasta_AloBastaUITests.framework */; };
+		B61D8CD82358ACFF00421E2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61D8CD72358ACFF00421E2F /* AppDelegate.swift */; };
+		B61D8CDA2358ACFF00421E2F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61D8CD92358ACFF00421E2F /* SceneDelegate.swift */; };
+		B61D8CDC2358ACFF00421E2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61D8CDB2358ACFF00421E2F /* ViewController.swift */; };
+		B61D8CDF2358ACFF00421E2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B61D8CDD2358ACFF00421E2F /* Main.storyboard */; };
+		B61D8CE12358AD0100421E2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B61D8CE02358AD0100421E2F /* Assets.xcassets */; };
+		B61D8CE42358AD0100421E2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B61D8CE22358AD0100421E2F /* LaunchScreen.storyboard */; };
+		B61D8CEF2358AD0100421E2F /* AloBastaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61D8CEE2358AD0100421E2F /* AloBastaTests.swift */; };
+		B61D8CFA2358AD0100421E2F /* AloBastaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61D8CF92358AD0100421E2F /* AloBastaUITests.swift */; };
+		DEBD65B593B121CDFD6C2AE6 /* Pods_AloBastaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4310BFF7442F20D9F8018AA6 /* Pods_AloBastaTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B61D8CEB2358AD0100421E2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B61D8CCC2358ACFF00421E2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B61D8CD32358ACFF00421E2F;
+			remoteInfo = AloBasta;
+		};
+		B61D8CF62358AD0100421E2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B61D8CCC2358ACFF00421E2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B61D8CD32358ACFF00421E2F;
+			remoteInfo = AloBasta;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01D3C6B9F234B8C853B4D8DD /* Pods-AloBastaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AloBastaTests.release.xcconfig"; path = "Target Support Files/Pods-AloBastaTests/Pods-AloBastaTests.release.xcconfig"; sourceTree = "<group>"; };
+		0BBFF352DAA9ADA3D109B50A /* Pods-AloBasta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AloBasta.release.xcconfig"; path = "Target Support Files/Pods-AloBasta/Pods-AloBasta.release.xcconfig"; sourceTree = "<group>"; };
+		4310BFF7442F20D9F8018AA6 /* Pods_AloBastaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AloBastaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5100580CED9FE0E96FB64D12 /* Pods_AloBasta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AloBasta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A3C6E930F04403794643008 /* Pods_AloBasta_AloBastaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AloBasta_AloBastaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99454DCD61EAB697EB20059B /* Pods-AloBasta-AloBastaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AloBasta-AloBastaUITests.release.xcconfig"; path = "Target Support Files/Pods-AloBasta-AloBastaUITests/Pods-AloBasta-AloBastaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B61D8CD42358ACFF00421E2F /* AloBasta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AloBasta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B61D8CD72358ACFF00421E2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B61D8CD92358ACFF00421E2F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B61D8CDB2358ACFF00421E2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B61D8CDE2358ACFF00421E2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B61D8CE02358AD0100421E2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B61D8CE32358AD0100421E2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B61D8CE52358AD0100421E2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B61D8CEA2358AD0100421E2F /* AloBastaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AloBastaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B61D8CEE2358AD0100421E2F /* AloBastaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AloBastaTests.swift; sourceTree = "<group>"; };
+		B61D8CF02358AD0100421E2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B61D8CF52358AD0100421E2F /* AloBastaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AloBastaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B61D8CF92358AD0100421E2F /* AloBastaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AloBastaUITests.swift; sourceTree = "<group>"; };
+		B61D8CFB2358AD0100421E2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEB1B4C39A3B84150F2B733F /* Pods-AloBastaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AloBastaTests.debug.xcconfig"; path = "Target Support Files/Pods-AloBastaTests/Pods-AloBastaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ED2695F1F16B1F80565C1752 /* Pods-AloBasta-AloBastaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AloBasta-AloBastaUITests.debug.xcconfig"; path = "Target Support Files/Pods-AloBasta-AloBastaUITests/Pods-AloBasta-AloBastaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FDA4DA841B0156256D0F1407 /* Pods-AloBasta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AloBasta.debug.xcconfig"; path = "Target Support Files/Pods-AloBasta/Pods-AloBasta.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B61D8CD12358ACFF00421E2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3B1102E891964E99B3AC89 /* Pods_AloBasta.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B61D8CE72358AD0100421E2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEBD65B593B121CDFD6C2AE6 /* Pods_AloBastaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B61D8CF22358AD0100421E2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				533EBB576D1BF788CA53EADE /* Pods_AloBasta_AloBastaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		295988CDB69C6A71C31BBCC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5100580CED9FE0E96FB64D12 /* Pods_AloBasta.framework */,
+				8A3C6E930F04403794643008 /* Pods_AloBasta_AloBastaUITests.framework */,
+				4310BFF7442F20D9F8018AA6 /* Pods_AloBastaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B61D8CCB2358ACFF00421E2F = {
+			isa = PBXGroup;
+			children = (
+				B61D8CD62358ACFF00421E2F /* AloBasta */,
+				B61D8CED2358AD0100421E2F /* AloBastaTests */,
+				B61D8CF82358AD0100421E2F /* AloBastaUITests */,
+				B61D8CD52358ACFF00421E2F /* Products */,
+				C307E9A8EE46899CC99D8A39 /* Pods */,
+				295988CDB69C6A71C31BBCC1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B61D8CD52358ACFF00421E2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B61D8CD42358ACFF00421E2F /* AloBasta.app */,
+				B61D8CEA2358AD0100421E2F /* AloBastaTests.xctest */,
+				B61D8CF52358AD0100421E2F /* AloBastaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B61D8CD62358ACFF00421E2F /* AloBasta */ = {
+			isa = PBXGroup;
+			children = (
+				B61D8CD72358ACFF00421E2F /* AppDelegate.swift */,
+				B61D8CD92358ACFF00421E2F /* SceneDelegate.swift */,
+				B61D8CDB2358ACFF00421E2F /* ViewController.swift */,
+				B61D8CDD2358ACFF00421E2F /* Main.storyboard */,
+				B61D8CE02358AD0100421E2F /* Assets.xcassets */,
+				B61D8CE22358AD0100421E2F /* LaunchScreen.storyboard */,
+				B61D8CE52358AD0100421E2F /* Info.plist */,
+			);
+			path = AloBasta;
+			sourceTree = "<group>";
+		};
+		B61D8CED2358AD0100421E2F /* AloBastaTests */ = {
+			isa = PBXGroup;
+			children = (
+				B61D8CEE2358AD0100421E2F /* AloBastaTests.swift */,
+				B61D8CF02358AD0100421E2F /* Info.plist */,
+			);
+			path = AloBastaTests;
+			sourceTree = "<group>";
+		};
+		B61D8CF82358AD0100421E2F /* AloBastaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B61D8CF92358AD0100421E2F /* AloBastaUITests.swift */,
+				B61D8CFB2358AD0100421E2F /* Info.plist */,
+			);
+			path = AloBastaUITests;
+			sourceTree = "<group>";
+		};
+		C307E9A8EE46899CC99D8A39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FDA4DA841B0156256D0F1407 /* Pods-AloBasta.debug.xcconfig */,
+				0BBFF352DAA9ADA3D109B50A /* Pods-AloBasta.release.xcconfig */,
+				ED2695F1F16B1F80565C1752 /* Pods-AloBasta-AloBastaUITests.debug.xcconfig */,
+				99454DCD61EAB697EB20059B /* Pods-AloBasta-AloBastaUITests.release.xcconfig */,
+				BEB1B4C39A3B84150F2B733F /* Pods-AloBastaTests.debug.xcconfig */,
+				01D3C6B9F234B8C853B4D8DD /* Pods-AloBastaTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B61D8CD32358ACFF00421E2F /* AloBasta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B61D8CFE2358AD0100421E2F /* Build configuration list for PBXNativeTarget "AloBasta" */;
+			buildPhases = (
+				8A00F8AAA709CB5598751AF6 /* [CP] Check Pods Manifest.lock */,
+				B61D8CD02358ACFF00421E2F /* Sources */,
+				B61D8CD12358ACFF00421E2F /* Frameworks */,
+				B61D8CD22358ACFF00421E2F /* Resources */,
+				ADCB00559104B121A196F54F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AloBasta;
+			productName = AloBasta;
+			productReference = B61D8CD42358ACFF00421E2F /* AloBasta.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B61D8CE92358AD0100421E2F /* AloBastaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B61D8D012358AD0100421E2F /* Build configuration list for PBXNativeTarget "AloBastaTests" */;
+			buildPhases = (
+				348C681390A206B139165B9C /* [CP] Check Pods Manifest.lock */,
+				B61D8CE62358AD0100421E2F /* Sources */,
+				B61D8CE72358AD0100421E2F /* Frameworks */,
+				B61D8CE82358AD0100421E2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B61D8CEC2358AD0100421E2F /* PBXTargetDependency */,
+			);
+			name = AloBastaTests;
+			productName = AloBastaTests;
+			productReference = B61D8CEA2358AD0100421E2F /* AloBastaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B61D8CF42358AD0100421E2F /* AloBastaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B61D8D042358AD0100421E2F /* Build configuration list for PBXNativeTarget "AloBastaUITests" */;
+			buildPhases = (
+				ED5AC06B6BBF4F35A63998D0 /* [CP] Check Pods Manifest.lock */,
+				B61D8CF12358AD0100421E2F /* Sources */,
+				B61D8CF22358AD0100421E2F /* Frameworks */,
+				B61D8CF32358AD0100421E2F /* Resources */,
+				F082FB7D5AE14A0F84D3B60F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B61D8CF72358AD0100421E2F /* PBXTargetDependency */,
+			);
+			name = AloBastaUITests;
+			productName = AloBastaUITests;
+			productReference = B61D8CF52358AD0100421E2F /* AloBastaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B61D8CCC2358ACFF00421E2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Agus Cahyono";
+				TargetAttributes = {
+					B61D8CD32358ACFF00421E2F = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					B61D8CE92358AD0100421E2F = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = B61D8CD32358ACFF00421E2F;
+					};
+					B61D8CF42358AD0100421E2F = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = B61D8CD32358ACFF00421E2F;
+					};
+				};
+			};
+			buildConfigurationList = B61D8CCF2358ACFF00421E2F /* Build configuration list for PBXProject "AloBasta" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B61D8CCB2358ACFF00421E2F;
+			productRefGroup = B61D8CD52358ACFF00421E2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B61D8CD32358ACFF00421E2F /* AloBasta */,
+				B61D8CE92358AD0100421E2F /* AloBastaTests */,
+				B61D8CF42358AD0100421E2F /* AloBastaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B61D8CD22358ACFF00421E2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B61D8CE42358AD0100421E2F /* LaunchScreen.storyboard in Resources */,
+				B61D8CE12358AD0100421E2F /* Assets.xcassets in Resources */,
+				B61D8CDF2358ACFF00421E2F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B61D8CE82358AD0100421E2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B61D8CF32358AD0100421E2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		348C681390A206B139165B9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AloBastaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A00F8AAA709CB5598751AF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AloBasta-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADCB00559104B121A196F54F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AloBasta/Pods-AloBasta-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AloBasta/Pods-AloBasta-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AloBasta/Pods-AloBasta-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED5AC06B6BBF4F35A63998D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AloBasta-AloBastaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F082FB7D5AE14A0F84D3B60F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AloBasta-AloBastaUITests/Pods-AloBasta-AloBastaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AloBasta-AloBastaUITests/Pods-AloBasta-AloBastaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AloBasta-AloBastaUITests/Pods-AloBasta-AloBastaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B61D8CD02358ACFF00421E2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B61D8CDC2358ACFF00421E2F /* ViewController.swift in Sources */,
+				B61D8CD82358ACFF00421E2F /* AppDelegate.swift in Sources */,
+				B61D8CDA2358ACFF00421E2F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B61D8CE62358AD0100421E2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B61D8CEF2358AD0100421E2F /* AloBastaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B61D8CF12358AD0100421E2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B61D8CFA2358AD0100421E2F /* AloBastaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B61D8CEC2358AD0100421E2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B61D8CD32358ACFF00421E2F /* AloBasta */;
+			targetProxy = B61D8CEB2358AD0100421E2F /* PBXContainerItemProxy */;
+		};
+		B61D8CF72358AD0100421E2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B61D8CD32358ACFF00421E2F /* AloBasta */;
+			targetProxy = B61D8CF62358AD0100421E2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B61D8CDD2358ACFF00421E2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B61D8CDE2358ACFF00421E2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B61D8CE22358AD0100421E2F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B61D8CE32358AD0100421E2F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B61D8CFC2358AD0100421E2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B61D8CFD2358AD0100421E2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B61D8CFF2358AD0100421E2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDA4DA841B0156256D0F1407 /* Pods-AloBasta.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AloBasta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.masagus.AloBasta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B61D8D002358AD0100421E2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BBFF352DAA9ADA3D109B50A /* Pods-AloBasta.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AloBasta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.masagus.AloBasta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B61D8D022358AD0100421E2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEB1B4C39A3B84150F2B733F /* Pods-AloBastaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AloBastaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.masagus.AloBastaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AloBasta.app/AloBasta";
+			};
+			name = Debug;
+		};
+		B61D8D032358AD0100421E2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01D3C6B9F234B8C853B4D8DD /* Pods-AloBastaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AloBastaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.masagus.AloBastaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AloBasta.app/AloBasta";
+			};
+			name = Release;
+		};
+		B61D8D052358AD0100421E2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED2695F1F16B1F80565C1752 /* Pods-AloBasta-AloBastaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AloBastaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.masagus.AloBastaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AloBasta;
+			};
+			name = Debug;
+		};
+		B61D8D062358AD0100421E2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99454DCD61EAB697EB20059B /* Pods-AloBasta-AloBastaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AloBastaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.masagus.AloBastaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AloBasta;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B61D8CCF2358ACFF00421E2F /* Build configuration list for PBXProject "AloBasta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B61D8CFC2358AD0100421E2F /* Debug */,
+				B61D8CFD2358AD0100421E2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B61D8CFE2358AD0100421E2F /* Build configuration list for PBXNativeTarget "AloBasta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B61D8CFF2358AD0100421E2F /* Debug */,
+				B61D8D002358AD0100421E2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B61D8D012358AD0100421E2F /* Build configuration list for PBXNativeTarget "AloBastaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B61D8D022358AD0100421E2F /* Debug */,
+				B61D8D032358AD0100421E2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B61D8D042358AD0100421E2F /* Build configuration list for PBXNativeTarget "AloBastaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B61D8D052358AD0100421E2F /* Debug */,
+				B61D8D062358AD0100421E2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B61D8CCC2358ACFF00421E2F /* Project object */;
+}
