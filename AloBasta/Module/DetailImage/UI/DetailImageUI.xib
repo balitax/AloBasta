@@ -19,7 +19,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="Pw4-IR-zjg">
-                    <rect key="frame" x="0.0" y="0.0" width="375" height="644"/>
+                    <rect key="frame" x="0.0" y="38" width="375" height="568"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                     <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="pgo-xl-tGa">
                         <size key="itemSize" width="50" height="50"/>
@@ -53,9 +53,9 @@
             <constraints>
                 <constraint firstAttribute="trailing" secondItem="5vg-Pr-HDJ" secondAttribute="trailing" id="3nr-GD-B5E"/>
                 <constraint firstItem="5vg-Pr-HDJ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="KM1-8Z-t3X"/>
-                <constraint firstItem="Pw4-IR-zjg" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="NlY-qL-KXM"/>
+                <constraint firstItem="Pw4-IR-zjg" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="38" id="NlY-qL-KXM"/>
                 <constraint firstAttribute="bottom" secondItem="5vg-Pr-HDJ" secondAttribute="bottom" id="aLF-DG-ZXH"/>
-                <constraint firstItem="5vg-Pr-HDJ" firstAttribute="top" secondItem="Pw4-IR-zjg" secondAttribute="bottom" id="hAB-r6-w6O"/>
+                <constraint firstItem="5vg-Pr-HDJ" firstAttribute="top" secondItem="Pw4-IR-zjg" secondAttribute="bottom" constant="38" id="hAB-r6-w6O"/>
                 <constraint firstItem="Pw4-IR-zjg" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="kD8-s6-4dl"/>
                 <constraint firstAttribute="trailing" secondItem="Pw4-IR-zjg" secondAttribute="trailing" id="xbz-YS-atf"/>
             </constraints>

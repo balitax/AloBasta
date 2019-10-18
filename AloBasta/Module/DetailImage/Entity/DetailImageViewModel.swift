@@ -30,7 +30,7 @@ class DetailImageViewModel {
         let type = items[indexPath.section][indexPath.row]
         switch type {
         case .collection:
-            return ImageCollectionCollectionViewCellViewModel(imgURL: pixabay?.largeImageURL)
+            return ImageCollectionCollectionViewCellViewModel(imgURL: pixabay?.previewURL)
         }
     }
     
