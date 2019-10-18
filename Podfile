@@ -8,6 +8,7 @@ target 'AloBasta' do
 
   pod 'RxSwift'
   pod 'Alamofire'
+  pod 'Kingfisher'
 
   target 'AloBastaTests' do
     inherit! :search_paths

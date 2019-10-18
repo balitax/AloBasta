@@ -34,6 +34,6 @@ protocol DetailImageInteractorOutput: class {
 protocol DetailImageWireframe: class {
     // TODO: Declare wireframe methods
     var viewController: UIViewController? { get set }
-    static func assembleModule() -> UIViewController
+    static func assembleModule(_ data: Hit) -> UIViewController
 }
 

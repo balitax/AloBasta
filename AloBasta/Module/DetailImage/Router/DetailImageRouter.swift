@@ -18,7 +18,8 @@ class DetailImageRouter {
 
 extension DetailImageRouter: DetailImageWireframe {
     
-    static func assembleModule() -> UIViewController {
+    
+    static func assembleModule(_ data: Hit) -> UIViewController {
         
         let view = DetailImageUI()
         let viewModel = DetailImageViewModel()
@@ -27,6 +28,7 @@ extension DetailImageRouter: DetailImageWireframe {
         let presenter = DetailImagePresenter(view: view, viewModel: viewModel,  interactor: interactor
             , router: router)
         
+        viewModel.pixabay = data
         view.presenter =  presenter
         
         presenter.view = view
@@ -39,5 +41,6 @@ extension DetailImageRouter: DetailImageWireframe {
         
         return view
     }
+    
     
 }

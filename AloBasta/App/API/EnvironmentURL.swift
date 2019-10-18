@@ -10,6 +10,6 @@ import Foundation
 
 struct EnvironmentURL {
     
-    static var baseURL = "http://gojek-contacts-app.herokuapp.com/"
+    static var baseURL = "https://pixabay.com/api/"
     
 }

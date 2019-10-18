@@ -10,6 +10,7 @@ import Foundation
 
 class DetailImageViewModel {
     
+    var pixabay: Hit?
     
     private(set) var items: [[CommonDetailImageViewCellKind]] = []
     
@@ -29,7 +30,7 @@ class DetailImageViewModel {
         let type = items[indexPath.section][indexPath.row]
         switch type {
         case .collection:
-            return ImageCollectionCollectionViewCellViewModel()
+            return ImageCollectionCollectionViewCellViewModel(imgURL: pixabay?.largeImageURL)
         }
     }
     

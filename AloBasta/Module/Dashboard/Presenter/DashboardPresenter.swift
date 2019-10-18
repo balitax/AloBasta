@@ -28,10 +28,17 @@ class DashboardPresenter {
 
 extension DashboardPresenter: DashboardPresentation {
     
-    func viewDidLoad() {  }
+    func selectedImage(_ index: IndexPath) -> Hit {
+        return viewModel.pixabay[index.row]
+    }
     
-    func presentDetail() {
-        router.presentDetail(from: view)
+    
+    func loadImages() {
+        interactor.loadImages()
+    }
+    
+    func presentDetail(_ data: Hit) {
+        router.presentDetail(data: data, from: view)
     }
     
     func numberOfSection() -> Int {
@@ -49,5 +56,16 @@ extension DashboardPresenter: DashboardPresentation {
 }
 
 extension DashboardPresenter: DashboardInteractorOutput {
+    
+    func onLoadPixabay(_ data: [Hit]) {
+        viewModel.pixabay = data
+        viewModel.createItems()
+        self.view.configureView(.success)
+    }
+    
+    func onError(_ error: Error) {
+        self.view.configureView(.error(description: error.localizedDescription))
+    }
+    
     
 }

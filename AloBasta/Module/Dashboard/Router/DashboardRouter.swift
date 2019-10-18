@@ -41,8 +41,8 @@ extension DashboardRouter: DashboardWireframe {
         return navigation
     }
     
-    func presentDetail(from view: PresentableView) {
-        let detail = DetailImageRouter.assembleModule()
+    func presentDetail(data: Hit, from view: PresentableView) {
+        let detail = DetailImageRouter.assembleModule(data)
         detail.hidesBottomBarWhenPushed = true
         if let navigationController = view.presentedViewController() as? UINavigationController {
             navigationController.pushViewController(detail, animated: true)

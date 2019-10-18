@@ -16,7 +16,7 @@
                 <rect key="frame" x="0.0" y="0.0" width="321" height="466"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="111" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="download_img" translatesAutoresizingMaskIntoConstraints="NO" id="ZoQ-oj-Nkl">
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="111" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZoQ-oj-Nkl">
                         <rect key="frame" x="0.0" y="0.0" width="321" height="466"/>
                     </imageView>
                 </subviews>
@@ -29,10 +29,10 @@
             </constraints>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <size key="customSize" width="321" height="466"/>
+            <connections>
+                <outlet property="imageDetail" destination="ZoQ-oj-Nkl" id="5NH-MW-fbr"/>
+            </connections>
             <point key="canvasLocation" x="200.72463768115944" y="77.008928571428569"/>
         </collectionViewCell>
     </objects>
-    <resources>
-        <image name="download_img" width="690" height="862"/>
-    </resources>
 </document>

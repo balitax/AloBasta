@@ -17,13 +17,13 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bkn-VU-mwJ" customClass="GSView" customModule="AloBasta" customModuleProvider="target">
-                    <rect key="frame" x="18" y="22" width="378" height="176"/>
+                    <rect key="frame" x="18" y="22" width="378" height="136"/>
                     <subviews>
                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="download_img" translatesAutoresizingMaskIntoConstraints="NO" id="LO5-ID-CNZ" customClass="CircularImageView" customModule="AloBasta" customModuleProvider="target">
-                            <rect key="frame" x="18" y="28" width="120" height="120"/>
+                            <rect key="frame" x="18" y="28" width="80" height="80"/>
                             <constraints>
-                                <constraint firstAttribute="width" constant="120" id="2Zm-3m-kMY"/>
-                                <constraint firstAttribute="height" constant="120" id="QWl-Sd-qdD"/>
+                                <constraint firstAttribute="width" constant="80" id="2Zm-3m-kMY"/>
+                                <constraint firstAttribute="height" constant="80" id="QWl-Sd-qdD"/>
                             </constraints>
                             <userDefinedRuntimeAttributes>
                                 <userDefinedRuntimeAttribute type="boolean" keyPath="circular" value="YES"/>
@@ -36,19 +36,19 @@
                             </userDefinedRuntimeAttributes>
                         </imageView>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Agus Cahyono" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vKB-Kr-9md">
-                            <rect key="frame" x="156" y="46" width="138" height="24"/>
+                            <rect key="frame" x="116" y="26" width="138" height="24"/>
                             <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                             <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Male" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IUj-9P-vcT">
-                            <rect key="frame" x="156" y="78" width="204" height="20"/>
+                            <rect key="frame" x="116" y="58" width="244" height="20"/>
                             <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
                             <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+6282301290429" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s4s-5H-V2R">
-                            <rect key="frame" x="156" y="106" width="138" height="20"/>
+                            <rect key="frame" x="116" y="86" width="138" height="20"/>
                             <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
                             <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <nil key="highlightedColor"/>
@@ -102,7 +102,7 @@
                     </userDefinedRuntimeAttributes>
                 </view>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0uf-qo-RpT">
-                    <rect key="frame" x="18" y="222" width="378" height="48"/>
+                    <rect key="frame" x="18" y="182" width="378" height="48"/>
                     <color key="backgroundColor" red="0.20784313730000001" green="0.43921568630000002" blue="0.82352941180000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="48" id="5RB-dB-2lo"/>

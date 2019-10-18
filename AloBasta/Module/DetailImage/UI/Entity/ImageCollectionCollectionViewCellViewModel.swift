@@ -10,8 +10,10 @@ import Foundation
 
 struct ImageCollectionCollectionViewCellViewModel: CellRepresentable {
     
-    init() {
-        
+    var imgURL: String?
+    
+    init(imgURL: String?) {
+        self.imgURL = imgURL
     }
     
     var type: String = {

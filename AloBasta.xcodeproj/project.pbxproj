@@ -13,8 +13,6 @@
 		B61D8CE42358AD0100421E2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B61D8CE22358AD0100421E2F /* LaunchScreen.storyboard */; };
 		B61D8CEF2358AD0100421E2F /* AloBastaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61D8CEE2358AD0100421E2F /* AloBastaTests.swift */; };
 		B61D8CFA2358AD0100421E2F /* AloBastaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61D8CF92358AD0100421E2F /* AloBastaUITests.swift */; };
-		B6DDF9C72358AE2800342981 /* ContactDetailResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DDF9BD2358AE2800342981 /* ContactDetailResponse.swift */; };
-		B6DDF9C82358AE2800342981 /* ContactResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DDF9BE2358AE2800342981 /* ContactResponse.swift */; };
 		B6DDF9C92358AE2800342981 /* APIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DDF9C02358AE2800342981 /* APIConfiguration.swift */; };
 		B6DDF9CA2358AE2800342981 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DDF9C12358AE2800342981 /* APIClient.swift */; };
 		B6DDF9CB2358AE2800342981 /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DDF9C22358AE2800342981 /* APIRouter.swift */; };
@@ -73,6 +71,7 @@
 		B6DDFA652358C96B00342981 /* CommonDetailImageViewCellKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DDFA642358C96B00342981 /* CommonDetailImageViewCellKind.swift */; };
 		B6DDFA672358C97400342981 /* DetailImageCellType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DDFA662358C97400342981 /* DetailImageCellType.swift */; };
 		B6DDFA6A2358C9C300342981 /* ImageCollectionCollectionViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DDFA692358C9C300342981 /* ImageCollectionCollectionViewCellViewModel.swift */; };
+		B6DDFA6E2358D56F00342981 /* PixabayResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DDFA6D2358D56F00342981 /* PixabayResponse.swift */; };
 		DEBD65B593B121CDFD6C2AE6 /* Pods_AloBastaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4310BFF7442F20D9F8018AA6 /* Pods_AloBastaTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -110,8 +109,6 @@
 		B61D8CF52358AD0100421E2F /* AloBastaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AloBastaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B61D8CF92358AD0100421E2F /* AloBastaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AloBastaUITests.swift; sourceTree = "<group>"; };
 		B61D8CFB2358AD0100421E2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B6DDF9BD2358AE2800342981 /* ContactDetailResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactDetailResponse.swift; sourceTree = "<group>"; };
-		B6DDF9BE2358AE2800342981 /* ContactResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactResponse.swift; sourceTree = "<group>"; };
 		B6DDF9C02358AE2800342981 /* APIConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIConfiguration.swift; sourceTree = "<group>"; };
 		B6DDF9C12358AE2800342981 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		B6DDF9C22358AE2800342981 /* APIRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
@@ -170,6 +167,7 @@
 		B6DDFA642358C96B00342981 /* CommonDetailImageViewCellKind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonDetailImageViewCellKind.swift; sourceTree = "<group>"; };
 		B6DDFA662358C97400342981 /* DetailImageCellType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailImageCellType.swift; sourceTree = "<group>"; };
 		B6DDFA692358C9C300342981 /* ImageCollectionCollectionViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionCollectionViewCellViewModel.swift; sourceTree = "<group>"; };
+		B6DDFA6D2358D56F00342981 /* PixabayResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixabayResponse.swift; sourceTree = "<group>"; };
 		BEB1B4C39A3B84150F2B733F /* Pods-AloBastaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AloBastaTests.debug.xcconfig"; path = "Target Support Files/Pods-AloBastaTests/Pods-AloBastaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED2695F1F16B1F80565C1752 /* Pods-AloBasta-AloBastaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AloBasta-AloBastaUITests.debug.xcconfig"; path = "Target Support Files/Pods-AloBasta-AloBastaUITests/Pods-AloBasta-AloBastaUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FDA4DA841B0156256D0F1407 /* Pods-AloBasta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AloBasta.debug.xcconfig"; path = "Target Support Files/Pods-AloBasta/Pods-AloBasta.debug.xcconfig"; sourceTree = "<group>"; };
@@ -281,8 +279,7 @@
 		B6DDF9BC2358AE2800342981 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				B6DDF9BD2358AE2800342981 /* ContactDetailResponse.swift */,
-				B6DDF9BE2358AE2800342981 /* ContactResponse.swift */,
+				B6DDFA6D2358D56F00342981 /* PixabayResponse.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -894,9 +891,9 @@
 				B6DDF9E02358AE3700342981 /* LoadingPlaceholderView.swift in Sources */,
 				B6DDF9F22358AE3F00342981 /* ViewStateKind.swift in Sources */,
 				B6DDFA442358C0F100342981 /* DashboardCellType.swift in Sources */,
-				B6DDF9C82358AE2800342981 /* ContactResponse.swift in Sources */,
 				B6DDF9E32358AE3700342981 /* CircularView.swift in Sources */,
 				B6DDFA072358AED300342981 /* AuthRouter.swift in Sources */,
+				B6DDFA6E2358D56F00342981 /* PixabayResponse.swift in Sources */,
 				B6DDF9CB2358AE2800342981 /* APIRouter.swift in Sources */,
 				B6DDFA222358B86400342981 /* DashboardRouter.swift in Sources */,
 				B6DDFA352358B88B00342981 /* ProfileInteractor.swift in Sources */,
@@ -914,7 +911,6 @@
 				B6DDF9DF2358AE3700342981 /* UIBezierPath+.swift in Sources */,
 				B6DDFA422358C0E100342981 /* CommonDashboardViewCellKind.swift in Sources */,
 				B6DDFA092358B4C600342981 /* UserDefaultsManager.swift in Sources */,
-				B6DDF9C72358AE2800342981 /* ContactDetailResponse.swift in Sources */,
 				B6DDFA0E2358B81600342981 /* HomeViewController.swift in Sources */,
 				B6DDFA402358C0C000342981 /* DashboardViewModel.swift in Sources */,
 				B6DDFA572358C37200342981 /* DetailImageUI.swift in Sources */,
