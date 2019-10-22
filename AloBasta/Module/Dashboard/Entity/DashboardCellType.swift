@@ -9,5 +9,5 @@
 import Foundation
 
 enum DashboardCellType: String {
-    case list = "ListImagesTableViewCell"
+    case listDoctor = "ListDocterTableViewCell"
 }

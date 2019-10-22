@@ -17,7 +17,7 @@ struct ListImagesTableViewCellViewModel: CellRepresentable {
     }
     
     var type: String = {
-        return DashboardCellType.list.rawValue
+        return DashboardCellType.listDoctor.rawValue
     }()
     
 }

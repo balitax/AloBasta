@@ -13,6 +13,11 @@
 		B61D8CE42358AD0100421E2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B61D8CE22358AD0100421E2F /* LaunchScreen.storyboard */; };
 		B61D8CEF2358AD0100421E2F /* AloBastaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61D8CEE2358AD0100421E2F /* AloBastaTests.swift */; };
 		B61D8CFA2358AD0100421E2F /* AloBastaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61D8CF92358AD0100421E2F /* AloBastaUITests.swift */; };
+		B6208CF9235EF3980003DD1F /* ListDocterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6208CF7235EF3980003DD1F /* ListDocterTableViewCell.swift */; };
+		B6208CFA235EF3980003DD1F /* ListDocterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6208CF8235EF3980003DD1F /* ListDocterTableViewCell.xib */; };
+		B6208CFC235EF6450003DD1F /* ListDocterTableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6208CFB235EF6450003DD1F /* ListDocterTableViewCellViewModel.swift */; };
+		B6208CFF235EF8240003DD1F /* ListSpesializationCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6208CFD235EF8240003DD1F /* ListSpesializationCollectionViewCell.swift */; };
+		B6208D00235EF8240003DD1F /* ListSpesializationCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6208CFE235EF8240003DD1F /* ListSpesializationCollectionViewCell.xib */; };
 		B6DDF9C92358AE2800342981 /* APIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DDF9C02358AE2800342981 /* APIConfiguration.swift */; };
 		B6DDF9CA2358AE2800342981 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DDF9C12358AE2800342981 /* APIClient.swift */; };
 		B6DDF9CB2358AE2800342981 /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DDF9C22358AE2800342981 /* APIRouter.swift */; };
@@ -109,6 +114,11 @@
 		B61D8CF52358AD0100421E2F /* AloBastaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AloBastaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B61D8CF92358AD0100421E2F /* AloBastaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AloBastaUITests.swift; sourceTree = "<group>"; };
 		B61D8CFB2358AD0100421E2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6208CF7235EF3980003DD1F /* ListDocterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDocterTableViewCell.swift; sourceTree = "<group>"; };
+		B6208CF8235EF3980003DD1F /* ListDocterTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListDocterTableViewCell.xib; sourceTree = "<group>"; };
+		B6208CFB235EF6450003DD1F /* ListDocterTableViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDocterTableViewCellViewModel.swift; sourceTree = "<group>"; };
+		B6208CFD235EF8240003DD1F /* ListSpesializationCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSpesializationCollectionViewCell.swift; sourceTree = "<group>"; };
+		B6208CFE235EF8240003DD1F /* ListSpesializationCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListSpesializationCollectionViewCell.xib; sourceTree = "<group>"; };
 		B6DDF9C02358AE2800342981 /* APIConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIConfiguration.swift; sourceTree = "<group>"; };
 		B6DDF9C12358AE2800342981 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		B6DDF9C22358AE2800342981 /* APIRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
@@ -519,6 +529,10 @@
 			children = (
 				B6DDFA3A2358C0A900342981 /* ListImagesTableViewCell.swift */,
 				B6DDFA3B2358C0A900342981 /* ListImagesTableViewCell.xib */,
+				B6208CF7235EF3980003DD1F /* ListDocterTableViewCell.swift */,
+				B6208CF8235EF3980003DD1F /* ListDocterTableViewCell.xib */,
+				B6208CFD235EF8240003DD1F /* ListSpesializationCollectionViewCell.swift */,
+				B6208CFE235EF8240003DD1F /* ListSpesializationCollectionViewCell.xib */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -537,6 +551,7 @@
 			isa = PBXGroup;
 			children = (
 				B6DDFA462358C14600342981 /* ListImagesTableViewCellViewModel.swift */,
+				B6208CFB235EF6450003DD1F /* ListDocterTableViewCellViewModel.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -749,6 +764,8 @@
 				B61D8CE42358AD0100421E2F /* LaunchScreen.storyboard in Resources */,
 				B6DDFA032358AED300342981 /* AuthUI.xib in Resources */,
 				B6DDFA562358C37200342981 /* DetailImageUI.xib in Resources */,
+				B6208D00235EF8240003DD1F /* ListSpesializationCollectionViewCell.xib in Resources */,
+				B6208CFA235EF3980003DD1F /* ListDocterTableViewCell.xib in Resources */,
 				B6DDFA322358B88B00342981 /* ProfileUI.xib in Resources */,
 				B6DDFA602358C91400342981 /* ImageCollectionCollectionViewCell.xib in Resources */,
 				B6DDFA1D2358B86400342981 /* DashboardUI.xib in Resources */,
@@ -918,11 +935,14 @@
 				B6DDFA5F2358C91400342981 /* ImageCollectionCollectionViewCell.swift in Sources */,
 				B6DDFA1F2358B86400342981 /* DashboardContract.swift in Sources */,
 				B6DDFA052358AED300342981 /* AuthPresenter.swift in Sources */,
+				B6208CFC235EF6450003DD1F /* ListDocterTableViewCellViewModel.swift in Sources */,
 				B6DDFA212358B86400342981 /* DashboardInteractor.swift in Sources */,
+				B6208CFF235EF8240003DD1F /* ListSpesializationCollectionViewCell.swift in Sources */,
 				B6DDF9DB2358AE3700342981 /* CircularImageView.swift in Sources */,
 				B6DDFA672358C97400342981 /* DetailImageCellType.swift in Sources */,
 				B6DDF9E22358AE3700342981 /* Coverable.swift in Sources */,
 				B6DDF9E12358AE3700342981 /* Coverable+UIKit.swift in Sources */,
+				B6208CF9235EF3980003DD1F /* ListDocterTableViewCell.swift in Sources */,
 				B6DDFA582358C37200342981 /* DetailImageContract.swift in Sources */,
 				B6DDFA5A2358C37200342981 /* DetailImageInteractor.swift in Sources */,
 				B6DDFA1E2358B86400342981 /* DashboardUI.swift in Sources */,

@@ -9,5 +9,5 @@
 import Foundation
 
 enum CommonDashboardViewCellKind {
-    case list
+    case listDoctor
 }

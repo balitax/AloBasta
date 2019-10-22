@@ -28,6 +28,7 @@ extension DashboardRouter: DashboardWireframe {
         
         let navigation = UINavigationController(rootViewController: view)
         
+        
         view.presenter =  presenter
         
         presenter.view = view

@@ -21,12 +21,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow()
         window?.makeKeyAndVisible()
         
-        var viewController = UIViewController()
-        if UserDefaultsManager.shared().email.isEmpty {
-            viewController = AuthRouter.assembleModule()
-        } else {
-            viewController = HomeViewController()
-        }
+        let viewController = DashboardRouter.assembleModule()
+//        if UserDefaultsManager.shared().email.isEmpty {
+//            viewController = AuthRouter.assembleModule()
+//        } else {
+//            viewController = HomeViewController()
+//        }
         
         window?.rootViewController = viewController
         

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="108" id="KGk-i7-Jjw" customClass="ListDocterTableViewCell" customModule="AloBasta" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="471" height="108"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="471" height="108"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="S6f-zb-eWI" customClass="CircularImageView" customModule="AloBasta" customModuleProvider="target">
+                        <rect key="frame" x="18" y="18" width="60" height="60"/>
+                        <color key="backgroundColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="60" id="ck7-Rf-CkN"/>
+                            <constraint firstAttribute="width" constant="60" id="nTN-aN-2C6"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="circular" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="dr. Mohammad Jaenudin Wijaya, Sp.PD" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S7i-hC-8pI">
+                        <rect key="frame" x="96" y="18" width="279" height="17"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Spesialis Penyakit Dalam" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ohe-ZH-h3u">
+                        <rect key="frame" x="96" y="43" width="279" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chat Sekarang Rp 10.000" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v1F-HR-I35">
+                        <rect key="frame" x="96" y="65.5" width="279" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
+                        <color key="textColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D1D-ar-A2g" customClass="GSView" customModule="AloBasta" customModuleProvider="target">
+                        <rect key="frame" x="393" y="18" width="60" height="28"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="👍 100%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zMt-mr-ICE">
+                                <rect key="frame" x="8" y="8" width="44" height="12"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="10"/>
+                                <color key="textColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="3Ml-xV-T4B"/>
+                            <constraint firstAttribute="bottom" secondItem="zMt-mr-ICE" secondAttribute="bottom" constant="8" id="A3k-l7-BNd"/>
+                            <constraint firstAttribute="trailing" secondItem="zMt-mr-ICE" secondAttribute="trailing" constant="8" id="D3o-bQ-s4f"/>
+                            <constraint firstItem="zMt-mr-ICE" firstAttribute="top" secondItem="D1D-ar-A2g" secondAttribute="top" constant="8" id="EEI-R1-WpL"/>
+                            <constraint firstItem="zMt-mr-ICE" firstAttribute="leading" secondItem="D1D-ar-A2g" secondAttribute="leading" constant="8" id="IZn-oY-NJY"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRaduis">
+                                <real key="value" value="4"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="startColor">
+                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="endColor">
+                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LnU-eO-EBF" userLabel="separator">
+                        <rect key="frame" x="18" y="107" width="435" height="1"/>
+                        <color key="backgroundColor" white="0.67000000000000004" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="ss7-YJ-Kua"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="v1F-HR-I35" firstAttribute="leading" secondItem="ohe-ZH-h3u" secondAttribute="leading" id="13D-mC-sCa"/>
+                    <constraint firstItem="v1F-HR-I35" firstAttribute="top" secondItem="ohe-ZH-h3u" secondAttribute="bottom" constant="8" id="3DH-SQ-Q3c"/>
+                    <constraint firstItem="S6f-zb-eWI" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="18" id="3pg-gw-CRj"/>
+                    <constraint firstItem="D1D-ar-A2g" firstAttribute="leading" secondItem="S7i-hC-8pI" secondAttribute="trailing" constant="18" id="76g-XT-Vju"/>
+                    <constraint firstItem="LnU-eO-EBF" firstAttribute="leading" secondItem="S6f-zb-eWI" secondAttribute="leading" id="7hC-dd-l6G"/>
+                    <constraint firstItem="v1F-HR-I35" firstAttribute="trailing" secondItem="ohe-ZH-h3u" secondAttribute="trailing" id="7rT-Zq-FwS"/>
+                    <constraint firstAttribute="trailing" secondItem="D1D-ar-A2g" secondAttribute="trailing" constant="18" id="7wh-Ve-fdh"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="v1F-HR-I35" secondAttribute="bottom" constant="18" id="M7d-Nl-yjD"/>
+                    <constraint firstItem="ohe-ZH-h3u" firstAttribute="trailing" secondItem="S7i-hC-8pI" secondAttribute="trailing" id="NyD-27-Vy6"/>
+                    <constraint firstItem="S7i-hC-8pI" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="18" id="RWo-Ox-Tgm"/>
+                    <constraint firstItem="LnU-eO-EBF" firstAttribute="trailing" secondItem="D1D-ar-A2g" secondAttribute="trailing" id="agS-Du-eqG"/>
+                    <constraint firstItem="ohe-ZH-h3u" firstAttribute="leading" secondItem="S7i-hC-8pI" secondAttribute="leading" id="bSK-Tv-cGt"/>
+                    <constraint firstItem="D1D-ar-A2g" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="18" id="eaI-XE-8JE"/>
+                    <constraint firstItem="S7i-hC-8pI" firstAttribute="leading" secondItem="S6f-zb-eWI" secondAttribute="trailing" constant="18" id="nsi-si-wrC"/>
+                    <constraint firstAttribute="bottom" secondItem="LnU-eO-EBF" secondAttribute="bottom" id="uaU-fS-vNS"/>
+                    <constraint firstItem="ohe-ZH-h3u" firstAttribute="top" secondItem="S7i-hC-8pI" secondAttribute="bottom" constant="8" id="wAG-R6-Vow"/>
+                    <constraint firstItem="S6f-zb-eWI" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="18" id="yZq-Vk-ZbQ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="247.10144927536234" y="106.47321428571428"/>
+        </tableViewCell>
+    </objects>
+</document>

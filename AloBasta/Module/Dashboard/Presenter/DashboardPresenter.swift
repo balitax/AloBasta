@@ -59,7 +59,6 @@ extension DashboardPresenter: DashboardInteractorOutput {
     
     func onLoadPixabay(_ data: [Hit]) {
         viewModel.pixabay = data
-        viewModel.createItems()
         self.view.configureView(.success)
     }
     
